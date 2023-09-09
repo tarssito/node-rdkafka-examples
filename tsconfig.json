@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["node"],
+    "moduleResolution": "Node",
+    "removeComments": true,
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "src/**/*spec.ts",
+    "src/**/mocks"
+  ],
+  "include": ["src/**/*"]
+}
